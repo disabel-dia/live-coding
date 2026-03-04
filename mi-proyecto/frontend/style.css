@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f4f4f9;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+input, textarea, button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#notes-list {
+    list-style: none;
+    padding: 0;
+}
+
+#notes-list li {
+    background: white;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#notes-list button {
+    width: auto;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+#notes-section {
+    margin-top: 20px;
+}

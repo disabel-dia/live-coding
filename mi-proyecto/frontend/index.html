@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de Notas Privadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gestor de Notas Privadas</h1>
+
+    <!-- Registro/Login -->
+    <div id="auth">
+        <h2>Registro / Login</h2>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Contraseña">
+        <button onclick="register()">Registrarse</button>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Crear nota -->
+    <div id="notes-section" style="display:none;">
+        <h2>Mis Notas</h2>
+        <input type="text" id="note-title" placeholder="Título">
+        <textarea id="note-content" placeholder="Contenido"></textarea>
+        <button onclick="createNote()">Crear Nota</button>
+
+        <h3>Lista de Notas</h3>
+        <ul id="notes-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
